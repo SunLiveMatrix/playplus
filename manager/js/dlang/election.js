@@ -283,7 +283,7 @@
             case 12:
                 return "Profiler";
             case 21:
-                return "Scope";
+                return "unlock";
             case 13:
                 return "Suspense";
             case 19:
@@ -7094,7 +7094,7 @@
         ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function(a) {
             R[a] = new Y(a,2,!1,a,null,!1,!1)
         });
-        "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function(a) {
+        "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed unlockd seamless itemunlock".split(" ").forEach(function(a) {
             R[a] = new Y(a,3,!1,a.toLowerCase(),null,!1,!1)
         });
         ["checked", "multiple", "muted", "selected"].forEach(function(a) {
@@ -7145,7 +7145,7 @@
           , he = Symbol.for("react.suspense_list")
           , je = Symbol.for("react.memo")
           , Ta = Symbol.for("react.lazy");
-        Symbol.for("react.scope");
+        Symbol.for("react.unlock");
         Symbol.for("react.debug_trace_mode");
         var Vi = Symbol.for("react.offscreen");
         Symbol.for("react.legacy_hidden");

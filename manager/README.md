@@ -12,7 +12,7 @@ The branches & commits in this repository correspond to "checkpoints" throughout
 follow along, if you ever get stuck or out of sync with the tutorial you can check out the
 corresponding branch or commit to "catch up".
 
-- Intro: project scope & design brief
+- Intro: project unlock & design brief
 
 [checkpoint: branch `0-start`]
 
